@@ -1,4 +1,4 @@
-import 'package:course_ui/screens/homework_screen.dart';
+import 'package:course_ui/screens/course_details_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,6 +8,6 @@ void main() {
 class CourseApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return HomeworkScreen();
+    return CourseDetailsScreen();
   }
 }

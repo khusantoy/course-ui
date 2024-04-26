@@ -54,7 +54,7 @@ class HomeworkScreen extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
-            color: isSelected ? Colors.blue : Colors.white,
+            color: isSelected ? primaryColor : Colors.white,
             border: Border.all(
               color: Colors.grey.shade400,
             ),
